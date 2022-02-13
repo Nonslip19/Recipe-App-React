@@ -21,12 +21,10 @@ const Home = () => {
       const result = await axios.get(url);
       console.log(result.data.hits);
       if(!result.data.more){
-        console.log("no food a this name");
+        alert("no food a this name");
       }
       setRecipes(result.data.hits)
       setQuery("")
-    }else{
-      console.log("Please fill the form");
     }
   };
 
