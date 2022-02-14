@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const LoginContainer = styled.div`
   background-image: url('https://picsum.photos/1600/900');
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 95vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -12,13 +12,12 @@ export const LoginContainer = styled.div`
 `;
 
 export const FormContainer = styled.div`
-  width: 600px;
-  min-width: 600px;
-  height: 600px;
+  width: 550px;
+  min-width: 550px;
+  height: 550px;
   background: linear-gradient(0deg, rgba(134,216,195,0.90) 15%, rgba(253,235,45,0.9) 90%);
   border-radius: 10%;
   /* border: 2px solid #e1f1dd; */
-  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +39,7 @@ export const StyledInput = styled.input`
   background-color: rgba(0, 0, 0, 0.8);
   border: none;
   color: white;
-  margin: 1rem;
+  margin: 0.7rem;
   text-align: center;
   /* text-indent: 20px; */
 `;
@@ -59,10 +58,9 @@ export const StyledButton = styled.button`
   color: white;
   border: none;
   cursor: pointer;
-  margin: 1rem;
+  margin: 0.7rem;
 `;
 
 export const StyledImg = styled.img`
   width: 150px;
-  margin: 1rem;
 `;

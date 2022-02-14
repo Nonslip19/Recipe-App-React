@@ -11,6 +11,7 @@ export const HeaderContainer = styled.div`
 export const MainHeader = styled.h2`
   margin-top: 1rem;
   font-size: 3rem;
+  color: purple;
 `;
 
 export const FormContainer = styled.form`

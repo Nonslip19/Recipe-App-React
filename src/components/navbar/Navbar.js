@@ -7,8 +7,9 @@ const Navbar = () => {
     <div>
         <Nav>
             <Logo to="/">
-                <i>{"<MK>"}</i><span>Recipe</span>
+                <i>{"MK "}<span>Recipe</span></i>
             </Logo>
+    
 
             <Hamburger onClick={()=>setIsOpen(!isOpen)}>
                 <span/>

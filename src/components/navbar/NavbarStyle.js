@@ -8,7 +8,6 @@ export const Nav = styled.div`
   align-items: center;
   flex-wrap: wrap;
   background: #e1f1dd;
-  border-radius: 0 0 10px 10px;
   height: 75px;
   font-size: 2rem;
 `;
@@ -28,23 +27,24 @@ export const Hamburger = styled.div`
   }
 `;
 export const MenuLink = styled(Link)`
-  padding: 1rem 2rem;
+  padding: 1rem 0.7rem;
   cursor: pointer;
-  text-align: center;
+  /* text-align: center; */
   text-decoration: none;
   color: #02475e;
-  transition: all 0.3s ease-in;
-  font-size: 2rem;
+  transition: all 0.2s ease-in;
+  font-size: 1.7rem;
   font-family: 'Girassol', sans-serif;
+  font-weight: bold;
   &:hover {
-    color: #00adb5;
-    font-weight: bold;
+    color: purple;
   }
   @media (max-width: 768px) {
     background-color: #e1f1dd;
     border: 1px solid #00adb5;
     border-radius: 10px;
     width: 100%;
+    text-align: center;
   }
 `;
 export const Menu = styled.div`
@@ -62,17 +62,14 @@ export const Menu = styled.div`
 `;
 export const Logo = styled(Link)`
   padding: 1rem 0;
-  color: #393e46;
+  color: purple;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2rem;
-  i {
-    font-family: 'Girassol', sans-serif;
-  }
+ 
   span {
-    font-family: 'Girassol', sans-serif;
     font-weight: 400;
     font-size: 2rem;
-    color: #00adb5;
+    color: #02475e;
   }
 `;
