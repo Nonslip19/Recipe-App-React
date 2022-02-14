@@ -50,12 +50,10 @@ const Details = (props) => {
         </ImgContainer>
         <IngContainer>
           {recipe.ingredientLines.map((line, index) => (
-            <div key={index}>
-              <p>
+            <p key={index}>
                 {index + 1} - {line}
-              </p>
               <br />
-            </div>
+            </p>
           ))}
         </IngContainer>
       </DetailPart>

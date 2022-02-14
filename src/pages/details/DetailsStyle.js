@@ -63,7 +63,11 @@ export const IngContainer = styled.div`
 
 export const OtherPart = styled.div`
   width: 400px;
-  text-align: right;
+  text-align: left;
   font-size: 1.8rem;
   margin: 2rem;
+  p{
+    margin:0;
+  }
 `;
+

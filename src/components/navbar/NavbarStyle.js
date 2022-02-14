@@ -39,6 +39,9 @@ export const MenuLink = styled(Link)`
   &:hover {
     color: purple;
   }
+  &:focus {
+    color: purple;
+  }
   @media (max-width: 768px) {
     background-color: #e1f1dd;
     border: 1px solid #00adb5;

@@ -8,10 +8,14 @@ export const HeaderContainer = styled.div`
   background: #00adb5;
 `;
 
-export const MainHeader = styled.h2`
-  margin-top: 1rem;
-  font-size: 3rem;
-  color: purple;
+export const MainHeader = styled.div`
+  margin: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align:center;
+  img{
+    width: 200px;
+  }
 `;
 
 export const FormContainer = styled.form`

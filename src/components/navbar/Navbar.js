@@ -10,7 +10,6 @@ const Navbar = () => {
                 <i>{"MK "}<span>Recipe</span></i>
             </Logo>
     
-
             <Hamburger onClick={()=>setIsOpen(!isOpen)}>
                 <span/>
                 <span/>
@@ -20,7 +19,7 @@ const Navbar = () => {
             <Menu isOpen={isOpen}>
                 <MenuLink to="/about">About</MenuLink>
                 <MenuLink to={{pathname:"https://github.com/Nonslip19"}}>Github</MenuLink>
-                <MenuLink to="/Login">Logout</MenuLink>
+                <MenuLink to="/Login">Login</MenuLink>
             </Menu>
         </Nav>
     </div>
